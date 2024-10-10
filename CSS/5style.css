@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    text-decoration: red line-through;
+    font-weight: lighter;
+}
+h2{
+    text-align: left;
+    text-decoration: double;
+}
+h3{
+    text-align: right;
+    text-decoration: underline;
+}
+p{
+    text-decoration: dotted;
+    font-weight: bolder;
+}

@@ -1,0 +1,60 @@
+/*
+                                    UNIVERSAL SELECTOR(*)
+    USED TO SELECT EVERYTHING IN A DOCUMENT
+
+ TEMPLETE:
+ #MYID{
+    PROPERTY: VALUE; 
+}
+
+*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 
+                                      ELEMENT SELECTOR
+ TEMPLETE:
+ H1{
+    PROPERTY: VALUE; 
+}
+
+*/
+h1,h3{
+    color: #b92b27;
+}
+
+
+/*            
+                          ID SELECTOR (#)
+ SELECTS AN ELEMENT BASED ON THE VALUE OF THE ELEMENT'S ID ATTRIBUTE
+ 
+ TEMPLETE:
+ #MYID{
+    PROPERTY: VALUE; 
+}
+*/
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+#login{
+    background-color: blueviolet;
+    color: white;
+}
+ /* 
+                                  CLASS SELECTOR
+SELECTS AN ELEMENT BASED ON THEIR CLASS ATTRIBUTE
+ TEMPLETE:
+ .MYCLASS{
+    PROPERTY: VALUE; 
+}
+ */
+ .upvote{
+    background-color: green;
+    color: white;
+ }
+ .answer{
+    background-color: #b92b27;
+    color: white;
+ }
