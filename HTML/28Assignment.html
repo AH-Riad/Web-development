@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riad's Form</title>
+</head>
+<body>
+    <h2>Registration form:</h2>
+    <form action="/Riad">
+        <div>
+            <label for="nm">Name:</label>
+            <input type="text" placeholder="Enter your name" name="Name" id="nm">
+        </div>
+      
+        <div>
+            Gender:
+            <input type="radio" name="sex" id="sex" value="M">
+            <label for="sex">Male:</label> 
+            <input type="radio" name="sex" id="sex" value="F">
+            <label for="sex">Female:</label>
+        </div>
+
+        <div>
+            Country:
+            <select name="Country" id="Country">
+                <option value="s">Select an option</option>
+                <option value="Bn">Bangladesh</option>
+                <option value="Ind">India</option>
+                <option value="Pak">Pakistan</option>
+                <option value="Cn">China</option>
+
+            </select>   
+        </div>
+        
+        <div>
+            <p>Message:</p>
+        
+            <textarea name="text" id="msg"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="CheckOn?" id="Sub" value="yes">
+            <label for="Sub">Subcribe?</label>
+        </div>
+        <br>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>

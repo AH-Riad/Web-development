@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <!-- FORMS ARE USED TO COLLECT DATA FROM THE USER -->
+    <!-- ACTION ATTRIBUTE IS USED TO DEFFINE WHAT ACTION NEEDS TO BE PERFORMED WHEN A FORM IS SUBMITTED 
+     OR WHERE THE FORM DATA SHOULD BE SENT -->
+     <!-- INPUT IS USED TO CREAT MULTIPLE FORM CONTROLS
+      THERE ARE MULTIPLE TYPES OF INPUTS THAT CAN BE CREATED USING TYPE ATTRIBUTE -->
+      <!-- Placeholder attribute holds place of user's input -->
+       <!-- Label element represents a caption for an item in a user interface -->
+        <!-- for == id always -->
+         <!-- name attribute submits the form as part of a name=value pair(we can check it after submission) -->
+        <form action="/server">
+            <div>
+                <label for="username">Username :</label>
+                <input type="text" placeholder="Enter username" id="username" name="User">
+            </div>
+            <br>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" placeholder="Enter password" id="password" name="Pass">
+            </div>
+            <br>
+            <div>
+                <label for="age">Age :</label>
+            <input type="number" placeholder="Enter your age" id="age" name="age">
+            </div>
+            <br>
+            <br>
+        
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            
+
+
+        </form>
+</body>
+</html>
