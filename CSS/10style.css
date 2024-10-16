@@ -1,0 +1,21 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-left-color: rgb(255, 21, 0);
+    border-left-style: dashed;
+    border-radius:  10%;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+h1{
+    color: blue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-color: purple;
+    border-style: dashed;
+
+}
